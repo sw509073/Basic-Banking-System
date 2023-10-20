@@ -1,0 +1,135 @@
+
+/* Main body */
+body{
+    background: #CEE6F3;
+}
+
+.outer-content{
+    height: 62vh;
+    background-color: #213555;
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 60rem;
+    border-bottom-right-radius: 60rem;
+    margin-bottom: 1vh;
+}
+
+/* Footer */
+.lower-content{
+    height: 18vh;
+    background-color: #D8C4B6;
+    color: #ffffff;
+    font-size: x-large;
+}
+
+/* Navbar */
+.nav-item{
+    margin-right: 80px;
+}
+.nav-link{
+    color: #ffffff!important;
+    font-family:sans-serif;
+}
+.nav-link:hover{
+    background-color:rgb(191, 55, 40);
+    color: #e4eff2 !important;
+    min-width: fit-content;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed';
+    font-size: 1.5rem;
+    color: #ffffff!important;
+}
+
+/* Image Slider */
+.tech-slideshow {
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .tech-slideshow > div {
+    height: 200px;
+    width: 2526px;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+  }
+  .tech-slideshow .mover-1 {
+    animation: moveSlideshow 25s linear infinite;
+  }
+  .tech-slideshow .mover-2 {
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    background-position: 0 -200px;
+    animation: moveSlideshow 25s linear infinite;
+  }
+
+  
+  @keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-66.6666%);  
+    }
+  }
+
+/* Buttons */
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color:#ffffff;
+    ;
+    color: #028dd2!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: rgb(191, 55, 40);
+    color: #ffffff!important;
+    font-weight: bold;
+    
+}
+
+/* Icons */
+.logo-img{
+    height: 35vh;
+    width: 90%;
+}
+.logo1{
+    height: 8vh;
+    width: 60%;
+}
+
+.social-icons{
+    font-size: medium;
+}
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+}
+
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: #0077b5;
+}
+.facebook{
+    color: #0077b5;
+}
+.instagram{
+    color: #ff0088;
+}
